@@ -3,7 +3,7 @@ const calendarContainer = document.querySelector(".container");
 var currentDate = new Date();
 
 const calendarDays = 24;
-console.log(currentDate.getDate() >= event.target.innerHTML);
+console.log(currentDate.getDate());
 console.log(currentDate.getMonth() + 1 === 12);
 const openDoor = (path, event) => {
   if (currentDate.getMonth() + 1 === 12 && currentDate.getDate() >= event.target.innerHTML) {
