@@ -5,7 +5,7 @@ var currentDate = new Date();
 const calendarDays = 24;
 
 const openDoor = (path, event) => {
-  if (currentDate.getMonth() + 1 === 10 && 24 >= event.target.innerHTML) {
+  if (currentDate.getMonth() + 1 === 11 && 24 >= event.target.innerHTML) {
     event.target.parentNode.style.backgroundImage = `url(${path})`;
     event.target.style.opacity = "0";
     event.target.style.backgroundColor = "#521751";
